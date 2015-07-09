@@ -26,4 +26,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+// -----------------------------------------------------------------------
+#pragma mark - <MECheckboxDelegate>
+// -----------------------------------------------------------------------
+-(void)checkbox:(MECheckbox *)checkbox didChangeValue:(BOOL)checked
+{
+    NSLog(@"Checked: %@", checked?@"YES":@"NO");
+}
+
+- (IBAction)toggleChecbox:(id)sender
+{
+    self.checkbox.checked = !self.checkbox.checked;
+}
+
 @end

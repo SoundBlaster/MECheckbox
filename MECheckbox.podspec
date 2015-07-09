@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MECheckbox"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "MECheckbox - simple checkbox for UIKit"
   s.description      = "UIKit implementation of classic web checkbox via custom images"
   s.homepage         = "https://github.com/SoundBlaster/MECheckbox"
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
     'MECheckbox' => ['Pod/Assets/*.png']
   }

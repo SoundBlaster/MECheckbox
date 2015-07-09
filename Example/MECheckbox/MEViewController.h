@@ -8,6 +8,9 @@
 
 @import UIKit;
 
-@interface MEViewController : UIViewController
+#import <MECheckbox/MECheckbox.h>
+@interface MEViewController : UIViewController <MECheckboxDelegate>
+- (IBAction)toggleChecbox:(id)sender;
+@property (weak, nonatomic) IBOutlet MECheckbox *checkbox;
 
 @end
