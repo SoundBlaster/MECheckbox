@@ -31,7 +31,7 @@
 // -----------------------------------------------------------------------
 -(void)checkbox:(MECheckbox *)checkbox didChangeValue:(BOOL)checked
 {
-    NSLog(@"Checked: %@", checked?@"YES":@"NO");
+    NSLog(@"Checked: %@", checked ? @"YES" : @"NO");
 }
 
 - (IBAction)toggleChecbox:(id)sender
