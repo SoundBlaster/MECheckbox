@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MECheckbox_Example', :exclusive => true do
+  pod "MECheckbox", :path => "../"
+end
+
+target 'MECheckbox_Tests', :exclusive => true do
+  pod "MECheckbox", :path => "../"
+
+  
+end
