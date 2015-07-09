@@ -8,8 +8,27 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```objc
+#import <MECheckbox/MECheckbox.h>
+
+...
+// by code
+UIImage *checked = [UIImage imageNamed:@"checked"];
+UIImage *unchecked = [UIImage imageNamed:@"unchecked"];
+CGRect frame = CGRectMake(0, 0, checked.size.width, checked.size.height);
+MECheckbox *checkbox = [[MECheckbox alloc] initWithFrame:frame];
+checkbox.checkedImage = checked;
+checkbox.uncheckedImage = unchecked;
+[self.view addSubview:checkbox];
+
+```
+
+Or just use Interface Builder - drag UIView, set class MECheckbox to it, than use designable properties 'checked' & 'unchecked' — IB draws checkbox live on any view in storyboard or in xib.
+
+You can use any UIImage what you want, **but remember - checkbox doesn't resize yourself for new images**. You must set frame for checkbox manually or by Auto Layout!
 
 ## Requirements
+UIKit
 
 ## Installation
 
