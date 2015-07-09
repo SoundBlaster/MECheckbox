@@ -22,7 +22,7 @@ pod "MECheckbox"
 
 ## Author
 
-SoundBlaster, egor.merkushev@yandex.ru
+SoundBlaster, egor@egormerkushev.ru
 
 ## License
 
