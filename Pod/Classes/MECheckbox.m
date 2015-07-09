@@ -1,6 +1,6 @@
 //
 //  OTCheckbox.m
-//  Olymptrade
+//  Egor Merkushev
 //
 //  Created by Sound Blaster on 08.07.15.
 //  Copyright (c) 2015 Egor Merkushev. All rights reserved.
