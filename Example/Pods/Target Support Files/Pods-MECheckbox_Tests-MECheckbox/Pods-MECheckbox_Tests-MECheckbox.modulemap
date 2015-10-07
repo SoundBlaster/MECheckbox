@@ -1,0 +1,6 @@
+framework module MECheckbox {
+  umbrella header "Pods-MECheckbox_Tests-MECheckbox-umbrella.h"
+
+  export *
+  module * { export * }
+}

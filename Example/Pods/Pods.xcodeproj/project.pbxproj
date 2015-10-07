@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05EB36624A38CF9CB1943DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A799672C0F337E1F2278B4 /* Foundation.framework */; };
+		18CDD1ACB7ABE944CE15A3AC /* MECheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F5A248E636767CA7E4942 /* MECheckbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255B49E6F9D68FB5BCE9C900 /* Pods-MECheckbox_Example-MECheckbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F58FFCC9C260F961346CB948 /* Pods-MECheckbox_Example-MECheckbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3636C7F8CBCCF61E8A7C3CE9 /* Pods-MECheckbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90427D46C098518282DCA23D /* Pods-MECheckbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48C8D8A1FD79ED2EFA3D6A28 /* MECheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB89366814105C307F46B1D /* MECheckbox.m */; };
+		6D1716480FD9DA0B1418F4C5 /* MECheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB89366814105C307F46B1D /* MECheckbox.m */; };
+		7BAEE1D7DE2FA3545E22A0B0 /* MECheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F5A248E636767CA7E4942 /* MECheckbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB90EF10D86C4E6E4784ABA /* MECheckbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE1D6DB7CA5B5218E63CBC0B /* MECheckbox.bundle */; };
+		8642C9E60AB7CE8C1121B30D /* Pods-MECheckbox_Tests-MECheckbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0783E857805314F1051D426 /* Pods-MECheckbox_Tests-MECheckbox-dummy.m */; };
+		888822BADACA3DC297323BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A799672C0F337E1F2278B4 /* Foundation.framework */; };
+		AD6055B142909905C8B74F55 /* Pods-MECheckbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30686506234B31F4BABE8C81 /* Pods-MECheckbox_Tests-dummy.m */; };
+		B76AA4C69673FB49B86A8DE4 /* Pods-MECheckbox_Tests-MECheckbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AC03E21FE1E27D6C76B40D /* Pods-MECheckbox_Tests-MECheckbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA9A86D235C115860CDEA758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A799672C0F337E1F2278B4 /* Foundation.framework */; };
+		C471973A6576A07681687774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A799672C0F337E1F2278B4 /* Foundation.framework */; };
+		C49C51F7DDC740A3EB0F315C /* Pods-MECheckbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E5E969A248796C7A7E90B2 /* Pods-MECheckbox_Example-dummy.m */; };
+		DA6741D11B13B46EAC8E1A92 /* Pods-MECheckbox_Example-MECheckbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F1D2220A2926B48AF7213B /* Pods-MECheckbox_Example-MECheckbox-dummy.m */; };
+		EB6FE3592B573422274CE2A3 /* MECheckbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E98632016FE5DE6CD179268D /* MECheckbox.bundle */; };
+		EEDADA946A7609F8395FB59A /* Pods-MECheckbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9B2634A2E4AD978670682E /* Pods-MECheckbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CACD559D5B9BD7C6A565E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF27ECC24E31D4C66B47001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10867BE7D22EAA25B9D5DE07;
+			remoteInfo = "Pods-MECheckbox_Tests-MECheckbox";
+		};
+		ACB196BC74AF3DB0690744B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF27ECC24E31D4C66B47001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7776213257EA8E1FB18B0649;
+			remoteInfo = "Pods-MECheckbox_Example-MECheckbox-MECheckbox";
+		};
+		BF7C65B23C68660AFAA5D0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF27ECC24E31D4C66B47001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B620AF4C351052B5ADC1CF3E;
+			remoteInfo = "Pods-MECheckbox_Tests-MECheckbox-MECheckbox";
+		};
+		D768CE226E2CB0BE2D1CA900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF27ECC24E31D4C66B47001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479D5A22AD72905A7474B336;
+			remoteInfo = "Pods-MECheckbox_Example-MECheckbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037311662FAAC03F3CE62540 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B38FBB7940AF45E324CA4B6 /* Pods-MECheckbox_Example-MECheckbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MECheckbox_Example-MECheckbox.xcconfig"; sourceTree = "<group>"; };
+		0FC189BE19A87BDA37AD7184 /* Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig"; path = "../Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig"; sourceTree = "<group>"; };
+		13E5E969A248796C7A7E90B2 /* Pods-MECheckbox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MECheckbox_Example-dummy.m"; sourceTree = "<group>"; };
+		1793D2A2EEAFDEEBE2B7526E /* Pods-MECheckbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MECheckbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1857415B72B37FC1C4C6B2D1 /* Pods-MECheckbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MECheckbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BE196F51B6670CF35A2693B /* Pods-MECheckbox_Example-MECheckbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MECheckbox_Example-MECheckbox.modulemap"; sourceTree = "<group>"; };
+		1CB89366814105C307F46B1D /* MECheckbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MECheckbox.m; sourceTree = "<group>"; };
+		256258B47047E4B20071C6E5 /* MECheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MECheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F325DEF15AD28C607F21E44 /* Pods-MECheckbox_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MECheckbox_Example-environment.h"; sourceTree = "<group>"; };
+		30686506234B31F4BABE8C81 /* Pods-MECheckbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MECheckbox_Tests-dummy.m"; sourceTree = "<group>"; };
+		39D4D55FF7172E21CFC2D3E2 /* Pods-MECheckbox_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MECheckbox_Tests-environment.h"; sourceTree = "<group>"; };
+		41AC03E21FE1E27D6C76B40D /* Pods-MECheckbox_Tests-MECheckbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-MECheckbox_Tests-MECheckbox-umbrella.h"; path = "../Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox-umbrella.h"; sourceTree = "<group>"; };
+		41E8607C2204E6AE3C8FA507 /* Pods_MECheckbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MECheckbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4999A2FE818E58AB113C5D1F /* MECheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MECheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADEFC8024C581F38AF1DC27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C18A70B4ACC8275291EF312 /* Pods-MECheckbox_Example-MECheckbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MECheckbox_Example-MECheckbox-prefix.pch"; sourceTree = "<group>"; };
+		51F1D2220A2926B48AF7213B /* Pods-MECheckbox_Example-MECheckbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MECheckbox_Example-MECheckbox-dummy.m"; sourceTree = "<group>"; };
+		56ED40FFEF648245A3C0BDC5 /* Pods-MECheckbox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MECheckbox_Example-resources.sh"; sourceTree = "<group>"; };
+		5736126E83CE8A8782AC9897 /* Pods_MECheckbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MECheckbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F96A6A76D745F80FD1A5107 /* Pods-MECheckbox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MECheckbox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80DCD8C05B98DFE27B673582 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-MECheckbox_Tests-MECheckbox/Info.plist"; sourceTree = "<group>"; };
+		82A799672C0F337E1F2278B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		840E712BAA19587AE6380B25 /* Pods-MECheckbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MECheckbox_Tests.modulemap"; sourceTree = "<group>"; };
+		855EBF3E5858EB30CC0495EC /* Pods-MECheckbox_Tests-MECheckbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-MECheckbox_Tests-MECheckbox-prefix.pch"; path = "../Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox-prefix.pch"; sourceTree = "<group>"; };
+		8685C5349901F857959EA3F1 /* Pods-MECheckbox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MECheckbox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		90427D46C098518282DCA23D /* Pods-MECheckbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MECheckbox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A0783E857805314F1051D426 /* Pods-MECheckbox_Tests-MECheckbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-MECheckbox_Tests-MECheckbox-dummy.m"; path = "../Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox-dummy.m"; sourceTree = "<group>"; };
+		A327DFEC6D7AFD34F691974D /* Pods-MECheckbox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MECheckbox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A99A4573085340285879FC3A /* Pods-MECheckbox_Tests-MECheckbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MECheckbox_Tests-MECheckbox.xcconfig"; path = "../Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox.xcconfig"; sourceTree = "<group>"; };
+		AA3F5A248E636767CA7E4942 /* MECheckbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MECheckbox.h; sourceTree = "<group>"; };
+		B5E6FB083CA1D71B3A08FE44 /* Pods-MECheckbox_Example-MECheckbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MECheckbox_Example-MECheckbox-Private.xcconfig"; sourceTree = "<group>"; };
+		B6B4B9505E14513A534CCEA1 /* Pods-MECheckbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MECheckbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D235F5359D4D20701EB4122C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D690262510074ADFA376F9A9 /* Pods-MECheckbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MECheckbox_Example.modulemap"; sourceTree = "<group>"; };
+		DC8066A72583E6205FC54700 /* Pods-MECheckbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MECheckbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E259E03D69A32E10091EC751 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28730448D436F8E70B32AC3 /* Pods-MECheckbox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MECheckbox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E336F9A5E111F2A687ADF128 /* Pods-MECheckbox_Tests-MECheckbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-MECheckbox_Tests-MECheckbox.modulemap"; path = "../Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox.modulemap"; sourceTree = "<group>"; };
+		E98632016FE5DE6CD179268D /* MECheckbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MECheckbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58FFCC9C260F961346CB948 /* Pods-MECheckbox_Example-MECheckbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MECheckbox_Example-MECheckbox-umbrella.h"; sourceTree = "<group>"; };
+		FA435D4920192456217BEF1F /* Pods-MECheckbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MECheckbox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA59D97D73F24247E08CD6F5 /* Pods-MECheckbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MECheckbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB9B2634A2E4AD978670682E /* Pods-MECheckbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MECheckbox_Example-umbrella.h"; sourceTree = "<group>"; };
+		FBE2C93F94AEAFF51C2FBD5E /* Pods-MECheckbox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MECheckbox_Tests-resources.sh"; sourceTree = "<group>"; };
+		FE1D6DB7CA5B5218E63CBC0B /* MECheckbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MECheckbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47468495D5C3A19E97FCC571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623E038B1DD681C4B934E8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888822BADACA3DC297323BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B101DC18E75877305161D1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9A86D235C115860CDEA758 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75B62BDE95CD1485BF58885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C471973A6576A07681687774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D465DFF7635B0BE0DD291963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EB36624A38CF9CB1943DAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E622563D7338CE3C5B25FBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341E4D4E1D20624E56AC8D0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F34E899A6C92E74D872C185 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		770284143C4A4BD80E12FA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D6DB7CA5B5218E63CBC0B /* MECheckbox.bundle */,
+				E98632016FE5DE6CD179268D /* MECheckbox.bundle */,
+				4999A2FE818E58AB113C5D1F /* MECheckbox.framework */,
+				256258B47047E4B20071C6E5 /* MECheckbox.framework */,
+				41E8607C2204E6AE3C8FA507 /* Pods_MECheckbox_Example.framework */,
+				5736126E83CE8A8782AC9897 /* Pods_MECheckbox_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7951413A491AAC55CDE39E25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C9E718D38980C158A381BC2 /* Pods-MECheckbox_Example */,
+				7A5B60D0E9456AFB989B6525 /* Pods-MECheckbox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A5B60D0E9456AFB989B6525 /* Pods-MECheckbox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADEFC8024C581F38AF1DC27 /* Info.plist */,
+				840E712BAA19587AE6380B25 /* Pods-MECheckbox_Tests.modulemap */,
+				1857415B72B37FC1C4C6B2D1 /* Pods-MECheckbox_Tests-acknowledgements.markdown */,
+				B6B4B9505E14513A534CCEA1 /* Pods-MECheckbox_Tests-acknowledgements.plist */,
+				30686506234B31F4BABE8C81 /* Pods-MECheckbox_Tests-dummy.m */,
+				39D4D55FF7172E21CFC2D3E2 /* Pods-MECheckbox_Tests-environment.h */,
+				A327DFEC6D7AFD34F691974D /* Pods-MECheckbox_Tests-frameworks.sh */,
+				FBE2C93F94AEAFF51C2FBD5E /* Pods-MECheckbox_Tests-resources.sh */,
+				90427D46C098518282DCA23D /* Pods-MECheckbox_Tests-umbrella.h */,
+				1793D2A2EEAFDEEBE2B7526E /* Pods-MECheckbox_Tests.debug.xcconfig */,
+				DC8066A72583E6205FC54700 /* Pods-MECheckbox_Tests.release.xcconfig */,
+			);
+			name = "Pods-MECheckbox_Tests";
+			path = "Target Support Files/Pods-MECheckbox_Tests";
+			sourceTree = "<group>";
+		};
+		7C18C157F51643A8B5FFDCA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E259E03D69A32E10091EC751 /* Info.plist */,
+				80DCD8C05B98DFE27B673582 /* Info.plist */,
+				1BE196F51B6670CF35A2693B /* Pods-MECheckbox_Example-MECheckbox.modulemap */,
+				0B38FBB7940AF45E324CA4B6 /* Pods-MECheckbox_Example-MECheckbox.xcconfig */,
+				B5E6FB083CA1D71B3A08FE44 /* Pods-MECheckbox_Example-MECheckbox-Private.xcconfig */,
+				51F1D2220A2926B48AF7213B /* Pods-MECheckbox_Example-MECheckbox-dummy.m */,
+				4C18A70B4ACC8275291EF312 /* Pods-MECheckbox_Example-MECheckbox-prefix.pch */,
+				F58FFCC9C260F961346CB948 /* Pods-MECheckbox_Example-MECheckbox-umbrella.h */,
+				E336F9A5E111F2A687ADF128 /* Pods-MECheckbox_Tests-MECheckbox.modulemap */,
+				A99A4573085340285879FC3A /* Pods-MECheckbox_Tests-MECheckbox.xcconfig */,
+				0FC189BE19A87BDA37AD7184 /* Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig */,
+				A0783E857805314F1051D426 /* Pods-MECheckbox_Tests-MECheckbox-dummy.m */,
+				855EBF3E5858EB30CC0495EC /* Pods-MECheckbox_Tests-MECheckbox-prefix.pch */,
+				41AC03E21FE1E27D6C76B40D /* Pods-MECheckbox_Tests-MECheckbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-MECheckbox_Example-MECheckbox";
+			sourceTree = "<group>";
+		};
+		8C9E718D38980C158A381BC2 /* Pods-MECheckbox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D235F5359D4D20701EB4122C /* Info.plist */,
+				D690262510074ADFA376F9A9 /* Pods-MECheckbox_Example.modulemap */,
+				5F96A6A76D745F80FD1A5107 /* Pods-MECheckbox_Example-acknowledgements.markdown */,
+				FA59D97D73F24247E08CD6F5 /* Pods-MECheckbox_Example-acknowledgements.plist */,
+				13E5E969A248796C7A7E90B2 /* Pods-MECheckbox_Example-dummy.m */,
+				2F325DEF15AD28C607F21E44 /* Pods-MECheckbox_Example-environment.h */,
+				8685C5349901F857959EA3F1 /* Pods-MECheckbox_Example-frameworks.sh */,
+				56ED40FFEF648245A3C0BDC5 /* Pods-MECheckbox_Example-resources.sh */,
+				FB9B2634A2E4AD978670682E /* Pods-MECheckbox_Example-umbrella.h */,
+				E28730448D436F8E70B32AC3 /* Pods-MECheckbox_Example.debug.xcconfig */,
+				FA435D4920192456217BEF1F /* Pods-MECheckbox_Example.release.xcconfig */,
+			);
+			name = "Pods-MECheckbox_Example";
+			path = "Target Support Files/Pods-MECheckbox_Example";
+			sourceTree = "<group>";
+		};
+		8F34E899A6C92E74D872C185 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				82A799672C0F337E1F2278B4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A32827BC2CC1EDC9FA6E07D1 /* MECheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				FFA3F007652DBC62D4296054 /* Pod */,
+				7C18C157F51643A8B5FFDCA1 /* Support Files */,
+			);
+			name = MECheckbox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ABC38DA4A9FF14A809A3CB6D = {
+			isa = PBXGroup;
+			children = (
+				037311662FAAC03F3CE62540 /* Podfile */,
+				C06003257EC953259B7B1A75 /* Development Pods */,
+				341E4D4E1D20624E56AC8D0D /* Frameworks */,
+				770284143C4A4BD80E12FA90 /* Products */,
+				7951413A491AAC55CDE39E25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9635FC9BA45CE72677D395 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F5A248E636767CA7E4942 /* MECheckbox.h */,
+				1CB89366814105C307F46B1D /* MECheckbox.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C06003257EC953259B7B1A75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A32827BC2CC1EDC9FA6E07D1 /* MECheckbox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FFA3F007652DBC62D4296054 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BE9635FC9BA45CE72677D395 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		265AC6420398E7FE05F0ECEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3636C7F8CBCCF61E8A7C3CE9 /* Pods-MECheckbox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A7161BBFBE5368E2417A8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDADA946A7609F8395FB59A /* Pods-MECheckbox_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E537A92AFE6163DB8F99E27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAEE1D7DE2FA3545E22A0B0 /* MECheckbox.h in Headers */,
+				B76AA4C69673FB49B86A8DE4 /* Pods-MECheckbox_Tests-MECheckbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64628632B58D24CC6CA970A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDD1ACB7ABE944CE15A3AC /* MECheckbox.h in Headers */,
+				255B49E6F9D68FB5BCE9C900 /* Pods-MECheckbox_Example-MECheckbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10867BE7D22EAA25B9D5DE07 /* Pods-MECheckbox_Tests-MECheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B47B4A4FB87926CA818A4A8 /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Tests-MECheckbox" */;
+			buildPhases = (
+				997ACEFA22602BB21C1F3980 /* Sources */,
+				B101DC18E75877305161D1DD /* Frameworks */,
+				0B704ADE3DF7C7F0CA67EF8F /* Resources */,
+				7E537A92AFE6163DB8F99E27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCCABFA9CD15E5F4B58FC96 /* PBXTargetDependency */,
+			);
+			name = "Pods-MECheckbox_Tests-MECheckbox";
+			productName = "Pods-MECheckbox_Tests-MECheckbox";
+			productReference = 256258B47047E4B20071C6E5 /* MECheckbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		479D5A22AD72905A7474B336 /* Pods-MECheckbox_Example-MECheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C4988E4E0E4A05CBC5E9E3 /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Example-MECheckbox" */;
+			buildPhases = (
+				976B5FB9F6519ADD203564D8 /* Sources */,
+				B75B62BDE95CD1485BF58885 /* Frameworks */,
+				3B798F7C3C35FA486E7151E0 /* Resources */,
+				B64628632B58D24CC6CA970A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F215D0A22924F4BCAFF5690 /* PBXTargetDependency */,
+			);
+			name = "Pods-MECheckbox_Example-MECheckbox";
+			productName = "Pods-MECheckbox_Example-MECheckbox";
+			productReference = 4999A2FE818E58AB113C5D1F /* MECheckbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7776213257EA8E1FB18B0649 /* Pods-MECheckbox_Example-MECheckbox-MECheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52652971605C5D9D8B1C6BFA /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Example-MECheckbox-MECheckbox" */;
+			buildPhases = (
+				6FFC42D95065D9CDD4A016FA /* Sources */,
+				E622563D7338CE3C5B25FBC7 /* Frameworks */,
+				7A5DEFD7138BC187F2610A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MECheckbox_Example-MECheckbox-MECheckbox";
+			productName = "Pods-MECheckbox_Example-MECheckbox-MECheckbox";
+			productReference = E98632016FE5DE6CD179268D /* MECheckbox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A246D6532DB11D7056E0AC21 /* Pods-MECheckbox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560AEA4C5D134682B861716F /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Example" */;
+			buildPhases = (
+				457917C1E13BE7E8A723BD2B /* Sources */,
+				623E038B1DD681C4B934E8E7 /* Frameworks */,
+				38A7161BBFBE5368E2417A8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B800C17174BF30383BBB63 /* PBXTargetDependency */,
+			);
+			name = "Pods-MECheckbox_Example";
+			productName = "Pods-MECheckbox_Example";
+			productReference = 41E8607C2204E6AE3C8FA507 /* Pods_MECheckbox_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B620AF4C351052B5ADC1CF3E /* Pods-MECheckbox_Tests-MECheckbox-MECheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CEB5F0C63D27ECFBF83F73 /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Tests-MECheckbox-MECheckbox" */;
+			buildPhases = (
+				DC09FA2BC043B3362D97F87D /* Sources */,
+				47468495D5C3A19E97FCC571 /* Frameworks */,
+				D20A9A6E43F92DA1C9E65FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MECheckbox_Tests-MECheckbox-MECheckbox";
+			productName = "Pods-MECheckbox_Tests-MECheckbox-MECheckbox";
+			productReference = FE1D6DB7CA5B5218E63CBC0B /* MECheckbox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C1E21025EEC27437A83C14CF /* Pods-MECheckbox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9500BDAA9119351A5D405DEB /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Tests" */;
+			buildPhases = (
+				F226B23E02CA835F86B05DB5 /* Sources */,
+				D465DFF7635B0BE0DD291963 /* Frameworks */,
+				265AC6420398E7FE05F0ECEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3A31DC9E198DFEA859DC97 /* PBXTargetDependency */,
+			);
+			name = "Pods-MECheckbox_Tests";
+			productName = "Pods-MECheckbox_Tests";
+			productReference = 5736126E83CE8A8782AC9897 /* Pods_MECheckbox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF27ECC24E31D4C66B47001C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C07DD1583E96C449AC099FD0 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABC38DA4A9FF14A809A3CB6D;
+			productRefGroup = 770284143C4A4BD80E12FA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A246D6532DB11D7056E0AC21 /* Pods-MECheckbox_Example */,
+				479D5A22AD72905A7474B336 /* Pods-MECheckbox_Example-MECheckbox */,
+				7776213257EA8E1FB18B0649 /* Pods-MECheckbox_Example-MECheckbox-MECheckbox */,
+				C1E21025EEC27437A83C14CF /* Pods-MECheckbox_Tests */,
+				10867BE7D22EAA25B9D5DE07 /* Pods-MECheckbox_Tests-MECheckbox */,
+				B620AF4C351052B5ADC1CF3E /* Pods-MECheckbox_Tests-MECheckbox-MECheckbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B704ADE3DF7C7F0CA67EF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB90EF10D86C4E6E4784ABA /* MECheckbox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B798F7C3C35FA486E7151E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6FE3592B573422274CE2A3 /* MECheckbox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5DEFD7138BC187F2610A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20A9A6E43F92DA1C9E65FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457917C1E13BE7E8A723BD2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49C51F7DDC740A3EB0F315C /* Pods-MECheckbox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFC42D95065D9CDD4A016FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976B5FB9F6519ADD203564D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C8D8A1FD79ED2EFA3D6A28 /* MECheckbox.m in Sources */,
+				DA6741D11B13B46EAC8E1A92 /* Pods-MECheckbox_Example-MECheckbox-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997ACEFA22602BB21C1F3980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1716480FD9DA0B1418F4C5 /* MECheckbox.m in Sources */,
+				8642C9E60AB7CE8C1121B30D /* Pods-MECheckbox_Tests-MECheckbox-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC09FA2BC043B3362D97F87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F226B23E02CA835F86B05DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6055B142909905C8B74F55 /* Pods-MECheckbox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F215D0A22924F4BCAFF5690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MECheckbox_Example-MECheckbox-MECheckbox";
+			target = 7776213257EA8E1FB18B0649 /* Pods-MECheckbox_Example-MECheckbox-MECheckbox */;
+			targetProxy = ACB196BC74AF3DB0690744B5 /* PBXContainerItemProxy */;
+		};
+		99B800C17174BF30383BBB63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MECheckbox_Example-MECheckbox";
+			target = 479D5A22AD72905A7474B336 /* Pods-MECheckbox_Example-MECheckbox */;
+			targetProxy = D768CE226E2CB0BE2D1CA900 /* PBXContainerItemProxy */;
+		};
+		BA3A31DC9E198DFEA859DC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MECheckbox_Tests-MECheckbox";
+			target = 10867BE7D22EAA25B9D5DE07 /* Pods-MECheckbox_Tests-MECheckbox */;
+			targetProxy = 07CACD559D5B9BD7C6A565E9 /* PBXContainerItemProxy */;
+		};
+		EBCCABFA9CD15E5F4B58FC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MECheckbox_Tests-MECheckbox-MECheckbox";
+			target = B620AF4C351052B5ADC1CF3E /* Pods-MECheckbox_Tests-MECheckbox-MECheckbox */;
+			targetProxy = BF7C65B23C68660AFAA5D0C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B91BFDE3C56AEF3ECFAB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC189BE19A87BDA37AD7184 /* Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Tests-MECheckbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F785058808B01936F1BBD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA435D4920192456217BEF1F /* Pods-MECheckbox_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Example/Pods-MECheckbox_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MECheckbox_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24D011DB07EE824DC28D9392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E6FB083CA1D71B3A08FE44 /* Pods-MECheckbox_Example-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MECheckbox_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		353B5349C99D08FA728F741A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC189BE19A87BDA37AD7184 /* Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Tests-MECheckbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Tests-MECheckbox/Pods-MECheckbox_Tests-MECheckbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43923A8154BAEA2436ADC1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1793D2A2EEAFDEEBE2B7526E /* Pods-MECheckbox_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Tests/Pods-MECheckbox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MECheckbox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		608135872195911628FE9709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E6FB083CA1D71B3A08FE44 /* Pods-MECheckbox_Example-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MECheckbox_Example-MECheckbox/Pods-MECheckbox_Example-MECheckbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Example-MECheckbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Example-MECheckbox/Pods-MECheckbox_Example-MECheckbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F03B8AD7DB6B187B1651020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D1B81B4DC373ACD89561A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E6FB083CA1D71B3A08FE44 /* Pods-MECheckbox_Example-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MECheckbox_Example-MECheckbox/Pods-MECheckbox_Example-MECheckbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Example-MECheckbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Example-MECheckbox/Pods-MECheckbox_Example-MECheckbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DED0D824EE59EB0B4D3DF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E6FB083CA1D71B3A08FE44 /* Pods-MECheckbox_Example-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MECheckbox_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8FBFC3F18B8F87AD5CCF93A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91AED1874C7D1CA0BDB11E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8066A72583E6205FC54700 /* Pods-MECheckbox_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Tests/Pods-MECheckbox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MECheckbox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1ED1FDD55E69BE0D5E7B90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC189BE19A87BDA37AD7184 /* Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MECheckbox_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A8301919A21FBA2DCF74342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28730448D436F8E70B32AC3 /* Pods-MECheckbox_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MECheckbox_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MECheckbox_Example/Pods-MECheckbox_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MECheckbox_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFFD5DDDA03176034CC4F37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC189BE19A87BDA37AD7184 /* Pods-MECheckbox_Tests-MECheckbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MECheckbox_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MECheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C4988E4E0E4A05CBC5E9E3 /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Example-MECheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608135872195911628FE9709 /* Debug */,
+				75D1B81B4DC373ACD89561A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52652971605C5D9D8B1C6BFA /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Example-MECheckbox-MECheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D011DB07EE824DC28D9392 /* Debug */,
+				7DED0D824EE59EB0B4D3DF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560AEA4C5D134682B861716F /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8301919A21FBA2DCF74342F /* Debug */,
+				1F785058808B01936F1BBD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B47B4A4FB87926CA818A4A8 /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Tests-MECheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B91BFDE3C56AEF3ECFAB7E /* Debug */,
+				353B5349C99D08FA728F741A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9500BDAA9119351A5D405DEB /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43923A8154BAEA2436ADC1DB /* Debug */,
+				91AED1874C7D1CA0BDB11E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07DD1583E96C449AC099FD0 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBFC3F18B8F87AD5CCF93A0 /* Debug */,
+				6F03B8AD7DB6B187B1651020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CEB5F0C63D27ECFBF83F73 /* Build configuration list for PBXNativeTarget "Pods-MECheckbox_Tests-MECheckbox-MECheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ED1FDD55E69BE0D5E7B90A /* Debug */,
+				FFFD5DDDA03176034CC4F37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF27ECC24E31D4C66B47001C /* Project object */;
+}

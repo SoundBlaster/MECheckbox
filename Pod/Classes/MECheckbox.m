@@ -103,7 +103,11 @@
         image = self.uncheckedImage;
     }
     // pattern image
-    imageRect = CGRectMake(0,0,image.size.width,image.size.height);
+    if (self.centered) {
+        imageRect = CGRectMake(0.5*(rect.size.width-image.size.width),0.5*(rect.size.height-image.size.height),image.size.width,image.size.height);
+    } else {
+        imageRect = CGRectMake(0,0,image.size.width,image.size.height);
+    }
     [[UIColor colorWithPatternImage:image] setFill];
     CGContextFillRect(context, imageRect);
 }

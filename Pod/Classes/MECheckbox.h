@@ -20,4 +20,5 @@ IB_DESIGNABLE
 @property (nonatomic, assign, getter=isChecked) IBInspectable BOOL checked;
 @property (nonatomic, strong) IBInspectable UIImage *checkedImage;
 @property (nonatomic, strong) IBInspectable UIImage *uncheckedImage;
+@property (nonatomic, assign) IBInspectable BOOL centered;
 @end
