@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A075C7D1BC5234300E4DBEC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A075C7C1BC5234300E4DBEC /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		41517B64B843D74C49AFB3C8 /* Pods_MECheckbox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C976F1A9D008DE252F24F52 /* Pods_MECheckbox_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23BBC6AF595439FE11A0315A /* Pods-MECheckbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MECheckbox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MECheckbox_Tests/Pods-MECheckbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A075C7C1BC5234300E4DBEC /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		320846CCEC4DFFFA36062544 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		504404FD0C58A9777C4FA212 /* Pods_MECheckbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MECheckbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D91117239FE0441C0C9819 /* Pods-MECheckbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MECheckbox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MECheckbox_Tests/Pods-MECheckbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				6003F59C195388D20070C39A /* MEAppDelegate.h */,
 				6003F59D195388D20070C39A /* MEAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				2A075C7C1BC5234300E4DBEC /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* MEViewController.h */,
 				6003F5A6195388D20070C39A /* MEViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2A075C7D1BC5234300E4DBEC /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
