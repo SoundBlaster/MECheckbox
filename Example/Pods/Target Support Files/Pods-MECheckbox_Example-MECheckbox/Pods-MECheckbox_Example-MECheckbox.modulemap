@@ -1,6 +1,0 @@
-framework module MECheckbox {
-  umbrella header "Pods-MECheckbox_Example-MECheckbox-umbrella.h"
-
-  export *
-  module * { export * }
-}

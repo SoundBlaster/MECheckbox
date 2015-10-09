@@ -1,5 +1,5 @@
 PODS:
-  - MECheckbox (0.1.1)
+  - MECheckbox (0.1.5)
 
 DEPENDENCIES:
   - MECheckbox (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MECheckbox: 344ce648906e2663b96d384a0ed8926687273ddd
+  MECheckbox: 541b9a11ce18c5924e1a77d749a13d740ab7fe46
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

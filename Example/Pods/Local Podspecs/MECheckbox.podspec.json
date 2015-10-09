@@ -1,6 +1,6 @@
 {
   "name": "MECheckbox",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "MECheckbox - simple checkbox for UIKit",
   "description": "UIKit implementation of classic web checkbox via custom images",
   "homepage": "https://github.com/SoundBlaster/MECheckbox",
