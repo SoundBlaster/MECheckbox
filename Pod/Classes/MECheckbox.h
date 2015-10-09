@@ -18,6 +18,7 @@ IB_DESIGNABLE
 @interface MECheckbox : UIView
 @property (nonatomic, weak) IBOutlet id<MECheckboxDelegate> delegate;
 @property (nonatomic, assign, getter=isChecked) IBInspectable BOOL checked;
+@property (nonatomic, assign, getter=isCrisp) IBInspectable BOOL crisp;
 @property (nonatomic, strong) IBInspectable UIImage *checkedImage;
 @property (nonatomic, strong) IBInspectable UIImage *uncheckedImage;
 @property (nonatomic, assign) IBInspectable BOOL centered;

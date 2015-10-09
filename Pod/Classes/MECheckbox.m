@@ -102,10 +102,16 @@
         image = self.uncheckedImage;
     }
     // pattern image
-    if (self.centered) {
-        imageRect = CGRectMake(0.5*(rect.size.width-image.size.width),
-                               0.5*(rect.size.height-image.size.height),
-                               image.size.width,image.size.height);
+    if (self.isChecked) {
+        if (self.isCrisp) {
+            imageRect = CGRectMake(floorf(0.5*(rect.size.width-image.size.width)),
+                                   floorf(0.5*(rect.size.height-image.size.height)),
+                                   image.size.width,image.size.height);
+        } else {
+            imageRect = CGRectMake(0.5*(rect.size.width-image.size.width),
+                                   0.5*(rect.size.height-image.size.height),
+                                   image.size.width,image.size.height);
+        }
     } else {
         imageRect = CGRectMake(0,0,image.size.width,image.size.height);
     }

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MECheckbox"
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.summary          = "MECheckbox - simple checkbox for UIKit"
   s.description      = "UIKit implementation of classic web checkbox via custom images"
   s.homepage         = "https://github.com/SoundBlaster/MECheckbox"
