@@ -95,14 +95,14 @@
     
     CGRect imageRect;
     UIImage *image;
-    if (self.checkedImage && self.checked) {
+    if (self.checkedImage && self.isChecked) {
         image = self.checkedImage;
     }
-    if (self.uncheckedImage && !self.checked) {
+    if (self.uncheckedImage && !self.isChecked) {
         image = self.uncheckedImage;
     }
     // pattern image
-    if (self.isChecked) {
+    if (self.isCentered) {
         if (self.isCrisp) {
             imageRect = CGRectMake(floorf(0.5*(rect.size.width-image.size.width)),
                                    floorf(0.5*(rect.size.height-image.size.height)),
